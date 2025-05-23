@@ -12,3 +12,14 @@ def bubble_sort(arr):
 numbers = list(map(int, input("Enter integers separated by space: ").split()))
 bubble_sort(numbers)
 print("Sorted list:", numbers)
+# 0   1  2 3  4
+# 70 12 65 30 18
+# 12 70 65 30 18
+# 12 65 70 30 18
+# 12 65 30 70 18
+# 12 65 30 18 70
+
+# 12 65 30 18 70
+
+# 12 30 65 18 70
+# 12 30 18 65 70
